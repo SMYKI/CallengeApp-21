@@ -5,6 +5,6 @@ long myVar2 = long.MaxValue;
 ulong myVar3 = ulong.MaxValue;
 
 float myNumber = float.MaxValue;
-float myNumber = 12564;
+float myNumber2 = 12564;
 
 Console.WriteLine(myAge + myNumber);
