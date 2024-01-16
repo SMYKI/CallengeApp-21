@@ -4,7 +4,7 @@ uint myVar = uint.MaxValue;
 long myVar2 = long.MaxValue;
 ulong myVar3 = ulong.MaxValue;
 
-float myNumber = float.MaxValue;
-float myNumber2 = 12564;
+float myNumber = 12554;
+float myNumber2 = float.MaxValue;
 
 Console.WriteLine(myAge + myNumber);
