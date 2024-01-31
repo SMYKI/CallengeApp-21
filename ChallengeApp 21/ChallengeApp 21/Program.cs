@@ -1,7 +1,5 @@
 ﻿var number = 4555;
-
 string numberAsString = number.ToString();
-
 char[] letters = numberAsString.ToArray();
 
 var counter0 = 0;
