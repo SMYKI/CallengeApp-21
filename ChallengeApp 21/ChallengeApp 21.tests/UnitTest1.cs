@@ -3,7 +3,7 @@ namespace ChallengeApp_21.tests
     public class Tests
     {
         [Test]
-        public void WhenAddThreeDifferentValues_ShouldGetCorrectResult()
+        public void WhenAddThreeDifferentValues_ShouldBeZeroResult()
         {
             var employee = new Employee("Jurek", "Lover", 23);
             employee.AddPoint(5);
@@ -13,11 +13,10 @@ namespace ChallengeApp_21.tests
             var Result = employee.Result;
 
             Assert.AreEqual(0, employee.Result);
-
         }
 
         [Test]
-        public void WhenAddThreeItems_ShoultGetCorrectResult()
+        public void WhenAddingIdenticalRatings_ShoultBePositiveResult()
         {
             var employee = new Employee("Laura", "Kowalska", 33);
             employee.AddPoint(1);
@@ -30,16 +29,16 @@ namespace ChallengeApp_21.tests
         }
 
         [Test]
-        public void WhenAddPoints_ShouldGetCorrectResult()
+        public void WhenEmployeeReceivedThreeDifferentRatings_ShouldGetNetiveResult()
         {
             var employee = new Employee("Irek", "Nowak", 50);
             employee.AddPoint(-8);
-            employee.AddPoint(3);
+            employee.AddPoint(0);
             employee.AddPoint(3);
 
             var Result = employee.Result;
 
-            Assert.AreEqual(-2, employee.Result);
+            Assert.AreEqual(-5, employee.Result);
         }
     }
  }
