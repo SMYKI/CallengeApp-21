@@ -1,6 +1,6 @@
 namespace ChallengeApp_21.tests
 {
-    public class Tests
+    public class Tests1
     {
         [Test]
         public void WhenAddThreeDifferentValues_ShouldBeZeroResult()
@@ -16,7 +16,7 @@ namespace ChallengeApp_21.tests
         }
 
         [Test]
-        public void WhenAddingIdenticalRatings_ShoultBePositiveResult()
+        public void WhenAddingIdenticalRatings_ShouldtBePositiveResult()
         {
             var employee = new Employee("Laura", "Kowalska", 33);
             employee.AddPoint(1);
